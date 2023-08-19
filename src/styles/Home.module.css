@@ -19,6 +19,7 @@
 
 .header {
 	background-color: rgba(37, 79, 161, 0.7);
+	color: white;
 
 	display: flex;
 	flex-direction: column;
@@ -33,6 +34,7 @@
 
 .main {
 	background-color: rgba(0, 0, 0, 0.7);
+	color: white;
 
 	width: 45%;
 }
@@ -73,9 +75,11 @@
 
 .textColumn {
 	text-align: center;
+	color: white;
 }
 
 .rowList {
+	color: white;
 	font-weight: bold;
 	margin: 0.5rem;
 }
