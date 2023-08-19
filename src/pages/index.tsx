@@ -74,6 +74,15 @@ export default function Home() {
           </div>
         </main>
 
+        <ins className="adsbygoogle"
+          style={{ display: "block" }}
+          data-ad-client="ca-pub-3821668752796554"
+          data-ad-slot="4032059096"
+          data-ad-format="auto"
+          data-full-width-responsive="true"></ins>
+        <script>
+          (adsbygoogle = window.adsbygoogle || []).push({ });
+        </script>
 
         <footer className={styles.footer}>
           <Image
