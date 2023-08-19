@@ -1,5 +1,13 @@
 .container {
-	background-color: #254fa1;
+	background-image: url('https://4.bp.blogspot.com/-CPymxlHyxWY/WrbFeDGetsI/AAAAAAAC5P0/GctSRN-vDP03ALUlwzvpQwE0NakH0e_ogCLcBGAs/s400/bus.jpg');
+	background-repeat: no-repeat, repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.overlay {
+	background-color: rgba(0, 0, 0, 0.7);
+
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -10,8 +18,7 @@
 }
 
 .header {
-	background-color: #deec41;
-	color: black;
+	background-color: rgba(37, 79, 161, 0.7);
 
 	display: flex;
 	flex-direction: column;
@@ -19,18 +26,20 @@
 	justify-content: center;
 
 	width: 100%;
-	padding: 1rem 0;
+	padding: 0.6rem 0;
 
 	font-weight: bold;
 }
 
 .main {
-	width: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+
+	width: 45%;
 }
 
 .headerSchedules {
 	color: black;
-	background-color: #deec41;
+	background-color: rgba(222, 236, 65, 0.9);
 
 	display: flex;
 	align-items: center;
@@ -40,6 +49,13 @@
 	padding: 0.5rem 0;
 
 	width: 100%;
+}
+
+.select {
+	background-color: #deec;
+	color: black;
+
+	margin-left: 0.5rem;
 }
 
 .containerColumns {
@@ -59,21 +75,34 @@
 	text-align: center;
 }
 
-.footer {
-	background-color: #deec41;
-	color: black;
+.rowList {
+	font-weight: bold;
+	margin: 0.5rem;
+}
 
+.footer {
+	background-color: rgba(37, 79, 161, 0.7);
+	color: white;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	width: 100%;
+	padding: 0.6rem 0;
+}
+
+.footerContent {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 
-	width: 100%;
-	padding: 1rem 0;
+	margin-left: 0.8rem;
 }
 
 @media (max-width: 768px) {
 	.main {
-		max-width: 100%;
+		width: 100%;
 	}
 }
