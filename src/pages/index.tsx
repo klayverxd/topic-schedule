@@ -2,20 +2,10 @@ import { useState } from 'react';
 import { Inter } from 'next/font/google'
 import Image from 'next/image';
 import whatsAppIcon from '../../public/assets/WhatsApp_icon.png'
+import { Schedule, SchedulesType } from '@/types/schedule';
 
 const inter = Inter({ subsets: ['latin'] })
 import styles from '@/styles/Home.module.css'
-
-interface Schedule {
-  week: string[];
-  saturday: string[];
-  sunday: string[];
-}
-
-interface SchedulesType {
-  coreauToSobral: Schedule;
-  sobralToCoreau: Schedule;
-}
 
 const schedules: SchedulesType = {
   coreauToSobral: {
@@ -75,16 +65,6 @@ export default function Home() {
             </div>
           </div>
         </main>
-
-        {/* <ins className="adsbygoogle"
-          style={{ display: "block" }}
-          data-ad-client="ca-pub-3821668752796554"
-          data-ad-slot="4032059096"
-          data-ad-format="auto"
-          data-full-width-responsive="true"></ins>
-        <script>
-          (adsbygoogle = window.adsbygoogle || []).push({ });
-        </script> */}
 
         <footer className={styles.footer}>
           <Image
