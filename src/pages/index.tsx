@@ -1,8 +1,10 @@
 import { useState } from 'react';
 import { Inter } from 'next/font/google'
-import styles from '@/styles/Home.module.css'
 import Image from 'next/image';
+import whatsAppIcon from '../../public/assets/WhatsApp_icon.png'
+
 const inter = Inter({ subsets: ['latin'] })
+import styles from '@/styles/Home.module.css'
 
 interface Schedule {
   week: string[];
@@ -74,7 +76,7 @@ export default function Home() {
           </div>
         </main>
 
-        <ins className="adsbygoogle"
+        {/* <ins className="adsbygoogle"
           style={{ display: "block" }}
           data-ad-client="ca-pub-3821668752796554"
           data-ad-slot="4032059096"
@@ -82,11 +84,11 @@ export default function Home() {
           data-full-width-responsive="true"></ins>
         <script>
           (adsbygoogle = window.adsbygoogle || []).push({ });
-        </script>
+        </script> */}
 
         <footer className={styles.footer}>
           <Image
-            src="https://imagepng.org/wp-content/uploads/2017/08/whatsapp-icone-2.png"
+            src={whatsAppIcon}
             width={30}
             height={30}
             alt="WhatsApp"
