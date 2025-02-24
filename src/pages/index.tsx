@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Inter } from 'next/font/google'
 import Image from 'next/image';
-import whatsAppIcon from '../../public/assets/WhatsApp_icon.png'
+import whatsAppIcon from '/assets/WhatsApp_icon.png'
 import { Schedule, SchedulesType } from '@/types/schedule';
 
 const inter = Inter({ subsets: ['latin'] })
