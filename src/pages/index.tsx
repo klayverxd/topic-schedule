@@ -68,7 +68,7 @@ export default function Home() {
         </main>
 
         <footer className={styles.footer}>
-          <Image
+          <img
             src={whatsAppIcon}
             width={30}
             height={30}
