@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
 	reactStrictMode: true,
-	assetPrefix: "https://topic-coreau.vercel.app",
+	assetPrefix: process.env.NEXT_PUBLIC_ASSET_URL,
 }
 
 module.exports = nextConfig

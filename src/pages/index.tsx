@@ -6,7 +6,7 @@ import { Schedule, SchedulesType } from '@/types/schedule';
 const inter = Inter({ subsets: ['latin'] })
 import styles from '@/styles/Home.module.css'
 
-const whatsAppIcon = '/WhatsApp_icon.png'
+const whatsAppIcon = `${process.env.NEXT_PUBLIC_ASSET_URL}/WhatsApp_icon.png`;
 
 const schedules: SchedulesType = {
   coreauToSobral: {
